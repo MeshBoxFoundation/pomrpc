@@ -1,4 +1,4 @@
-module helloworld
+module pomrpc
 
 go 1.16
 

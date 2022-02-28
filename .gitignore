@@ -1,2 +1,42 @@
+pomrpc
+.idea
+*.iml
+*.db
 
-app.yaml
+.cache
+.vscode
+
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+# profiling output
+pprof*
+
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.dylib
+*.pyc
+
+# Test binary, build with `go test -c`
+data/*
+*.test
+*.gz
+
+#git patch
+*.patch
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# wallet date file
+*.dat
+
+# binary
+bin/*
+**/release
+coverage.txt
+lint.log
+.editorconfig
+
